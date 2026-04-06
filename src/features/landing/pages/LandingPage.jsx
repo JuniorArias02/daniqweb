@@ -237,7 +237,9 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
            <div className="flex items-center gap-3">
               <img src="/icon.png" className="w-6 h-6 rounded-md opacity-50 grayscale" />
-              <p className="text-slate-600 text-sm font-medium">© {new Date().getFullYear()} Daniq App. Creada por Junior Arias.</p>
+              <p className="text-slate-600 text-sm font-medium">
+                © {new Date().getFullYear()} Daniq App. Creada por <a href="https://juniorarias04.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-brand hover:underline font-bold">Junior Arias</a>.
+              </p>
            </div>
            <p className="text-slate-700 text-xs font-bold uppercase tracking-widest flex items-center gap-2">
              <Smartphone size={14} /> Tu aliada financiera local
