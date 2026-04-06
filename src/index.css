@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #22C55E;
+  --color-dark-bg: #0D1117;
+  --color-dark-card: #161B22;
+  --color-dark-border: #30363D;
+  
+  --font-sans: 'Outfit', sans-serif;
+}
+
+:root {
+  background-color: #0D1117;
+  color: #F1F5F9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
